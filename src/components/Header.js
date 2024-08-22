@@ -1,9 +1,11 @@
 import React from 'react';
+import { GooglePlayButton } from "react-mobile-app-button";
 import headerImg from "../assets/images/headerImg.png"
 import Playstore from "../assets/images/playstore.png"
 
 const Header = () => {
-   
+  const APKUrl =
+  "https://play.google.com/store/apps/details?id=com.nchass.fintech";
   return (
  
     <section id='home'>
@@ -20,7 +22,7 @@ const Header = () => {
           
           </div>
           <div className=" absolute right-0 main-text mx-auto text-end   float-end  md:float-none  text-white p-10">
-              <h1 className="text-6xl   md:text-7xl font-bold mb-4 text-yellow-400">
+              <h1 className=" font-bold mb-4 text-yellow-400">
                 The Future Of 
                 <br />
                 <span className="">Money</span>
@@ -33,13 +35,11 @@ const Header = () => {
                 Just trust the process!
               </p>
               
-              <a
-              href="https://play.google.com/store/apps/details?id=com.nchass.fintech"
-              className="inline-flex items-center justify-center bg-gray-300 rounded-md shadow-sm hover:bg-gray-400 "
-            >
-              <img src={Playstore} alt="Google Play" className='h-24'/>
-              
-            </a>
+              <GooglePlayButton
+                url={APKUrl}
+                theme={"light"}
+                className={"custom-style"} 
+              />
             </div>
 
             {/* Decorative circles */}
