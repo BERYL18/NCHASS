@@ -6,7 +6,7 @@ export const Navbar = () => {
   
   return (
     
-         <nav className="bg-teal-700 p-4 nav_bar z-50">
+         <nav className="bg-teal-800 py-4  z-50">
                  <div className="container mx-auto flex justify-between items-center">
                     <div className="text-teal-200 text-xl font-bold">NCHASS</div>
                         <div className="hidden md:flex space-x-6">
