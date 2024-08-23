@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <div className='flex justify-between w-24 '>
             <a href="https://x.com/NCHASS_App?t=w_Q5l326JQzIc8QjHSTqdA&s=09" className='text-white text-2xl'><FaFacebook/></a>
-            <a href="https://x.com/NCHASS_App?t=w_Q5l326JQzIc8QjHSTqdA&s=09"  className='text-white text-2xl'><FaTwitter/></a>
+            <a href="https://www.facebook.com/share/GWjKuazPWf1ufjje/?mibextid=qi2Omg"  className='text-white text-2xl'><FaTwitter/></a>
             </div>
         </div>
        
