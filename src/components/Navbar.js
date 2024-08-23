@@ -5,9 +5,10 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);  
   
   return (
-    
+ 
          <nav className="bg-teal-950 py-4 nav_bar z-50">
                  <div className="container  mx-auto flex justify-between items-center nav_bar">
+ 
                     <div className="text-teal-200 text-xl font-bold">NCHASS</div>
                         <div className="hidden md:flex space-x-6">
                             <a href="#home" className="text-white hover:text-gray-300">Home</a>

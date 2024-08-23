@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 import { GooglePlayButton } from "react-mobile-app-button";
 
 const Header = () => {
   const APKUrl =
-  "https://play.google.com/store/apps/details?id=com.nchass.fintech";
+    "https://play.google.com/store/apps/details?id=com.nchass.fintech";
   return (
+ 
  
     <section id='home' className='bg-[#117C6F]'>
       <div className="bg-[url('./assets/images/headerImg.png')]  h-[92vh] md:bg-fit md:bg-no-repeat  md:bg-cover bg-no-repeat   mx-auto flex  items-start bg-cover bg-center  ">
@@ -30,13 +31,19 @@ const Header = () => {
                 className={" bg-white text-black mt-10 "} 
               />
             </div>
+ 
 
-            {/* Decorative circles */}
-            
+          <GooglePlayButton
+            url={APKUrl}
+            theme={"light"}
+            className={"custom-style"}
+          />
+        </div>
 
-    </div>
+        {/* Decorative circles */}
+      </div>
     </section>
   );
-}
+};
 
 export default Header;
