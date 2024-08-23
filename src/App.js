@@ -4,8 +4,9 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import Features from './components/Features';
-import Contact from './components/Contact';
+import ContactForm from './components/ContactForm';
 import Footer  from './components/Footer';
+
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Header />
       <About/>
       <Features/>
-      <Contact />
+      <ContactForm/>
       <Footer/>
     </BrowserRouter>
   );
