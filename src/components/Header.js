@@ -1,44 +1,33 @@
 import React from 'react';
 import { GooglePlayButton } from "react-mobile-app-button";
-import headerImg from "../assets/images/headerImg.png"
-import Playstore from "../assets/images/playstore.png"
 
 const Header = () => {
   const APKUrl =
   "https://play.google.com/store/apps/details?id=com.nchass.fintech";
   return (
  
-    <section id='home'>
-      <div className="bg-teal-500   mx-auto flex md:flex-row items-start ">
-        <div className=" relative img-container   ">
+    <section id='home' className='bg-[#117C6F]'>
+      <div className="bg-[url('./assets/images/headerImg.png')]  h-[92vh] md:bg-fit md:bg-no-repeat bg-cover bg-no-repeat   mx-auto flex  items-start ">
+         
            
-           {/* Right Image Section */}
-        
-          <img 
-            src={headerImg}
-            alt="Two women using a phone"
-           
-          />
-          
-          </div>
-          <div className=" absolute right-0 main-text mx-auto text-end   float-end  md:float-none  text-white p-10">
-              <h1 className=" font-bold mb-4 text-yellow-400">
+          <div className=" container  h-[100%] flex flex-col justify-center items-center md:items-end mx-auto md:text-end text-center  text-white ">
+              <h1 className=" font-bold mb-10 text-[#FFAF2E] md:text-8xl text-5xl"> 
                 The Future Of 
                 <br />
                 <span className="">Money</span>
               </h1>
-              <p className="text-lg md:text-xl  mb-8">
+              <p className="text-2xl  mb-8">
                 You don't need to worry  
                 <br />
                 about your change anymore.
                 <br />
-                Just trust the process!
+                Just trust the process! 
               </p>
               
               <GooglePlayButton
                 url={APKUrl}
                 theme={"light"}
-                className={"custom-style"} 
+                className={" bg-white text-black mt-10 "} 
               />
             </div>
 

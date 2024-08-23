@@ -6,8 +6,8 @@ export const Navbar = () => {
   
   return (
     
-         <nav className="bg-teal-700 p-4 nav_bar z-50">
-                 <div className="container mx-auto flex justify-between items-center">
+         <nav className="bg-teal-800 py-4 nav_bar z-50">
+                 <div className="container mx-auto flex justify-between items-center nav_bar">
                     <div className="text-teal-200 text-xl font-bold">NCHASS</div>
                         <div className="hidden md:flex space-x-6">
                             <a href="#home" className="text-white hover:text-gray-300">Home</a>
@@ -40,11 +40,11 @@ export const Navbar = () => {
                     </div>
                     
                     {isOpen && (
-                        <div className="md:hidden bg-teal-700 w-[100vw] m-0">
-                        <a href="#home" className="block px-4 py-2 text-white hover:bg-teal-200">Home</a>
-                        <a href="#about" className="block px-4 py-2 text-white hover:bg-teal-200">About</a>
-                        <a href="#contact" className="block px-4 py-2 text-white hover:bg-teal-200">Contact</a>
-                        <a href="#help" className="block px-4 py-2 text-white hover:bg-teal-200">Help</a>
+                        <div className="md:hidden bg-teal-800 w-[100vw] m-0">
+                        <a href="#home" className="block px-4 py-2 text-white hover:bg-teal-500">Home</a>
+                        <a href="#about" className="block px-4 py-2 text-white hover:bg-teal-500">About</a>
+                        <a href="#contact" className="block px-4 py-2 text-white hover:bg-teal-500">Contact</a>
+                        <a href="#help" className="block px-4 py-2 text-white hover:bg-teal-500">Help</a>
                         </div>
                     )}
                 </nav>
