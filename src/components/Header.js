@@ -7,7 +7,7 @@ const Header = () => {
   return (
  
     <section id='home' className='bg-[#117C6F]'>
-      <div className="bg-[url('./assets/images/headerImg.png')]  h-[92vh] md:bg-fit md:bg-no-repeat bg-cover bg-no-repeat   mx-auto flex  items-start ">
+      <div className="bg-[url('./assets/images/headerImg.png')]  h-[92vh] md:bg-fit md:bg-no-repeat  md:bg-cover bg-no-repeat   mx-auto flex  items-start bg-cover bg-center  ">
          
            
           <div className=" container  h-[100%] flex flex-col justify-center items-center md:items-end mx-auto md:text-end text-center  text-white ">

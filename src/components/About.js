@@ -1,12 +1,15 @@
 import React from 'react';
-import phone from "../assets/images/phone .png";
-import other from "../assets/images/headerImg.png";
+import phone1 from "../assets/images/phone1.png";
+import phone2 from "../assets/images/phone2.png";
+import phone3 from "../assets/images/phone3.png";
 import Carousel from './Carousel';
 
 const About = () => {
   const images = [
-    phone,
-    other,
+    
+    phone3,
+    phone2,
+    phone1,
     
 ];
   return (
